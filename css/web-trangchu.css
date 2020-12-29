@@ -91,6 +91,7 @@ nav .nav-item .btn:hover{
   text-align: center;
   border-radius: .5rem;
   padding-left:0;
+  
 }
 .banner-long img{
   width: 105%;
@@ -108,9 +109,15 @@ nav .nav-item .btn:hover{
   width: 100%;
   margin: 0 !important;
 }
+.sale-group .carousel{
+  width: 100%;
+}
 .sale-group a{
   color:white;
   font-weight: bolder;
+}
+.sale-group .sale{
+  transition: transform 1s, filter 1s ease-in-out;
 }
 .sale-group-right{
   text-align:right;
@@ -130,8 +137,14 @@ nav .nav-item .btn:hover{
 .sale-group .sale .sale-price{
   color:blue;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 18px;
   float: left;
+  text-overflow: ellipsis;
+  text-align: left;
+  overflow: hidden;
+  max-height: 4.5rem;
+    min-height: 4.5rem;
+    margin-top: 0.5rem;
 }
 .sale-group i{
   margin:10px;
@@ -143,10 +156,13 @@ nav .nav-item .btn:hover{
 .sale-group .sale:hover{
   box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
 }
+.sale-group .sale:hover img{
+  transform: scale(1.07);
+}
 /*Regular Sale Group*/
 .regular-sale-box-group{
   border-radius: .5rem;
-  background: linear-gradient(90deg, rgb(210, 221, 221), rgb(255, 255, 255));
+  background: linear-gradient(90deg, rgb(210, 221, 221), rgb(225, 241, 241));
   margin-top: 10px;
   width: 100%;
   margin: 0 !important;
@@ -163,6 +179,51 @@ nav .nav-item .btn:hover{
 }
 .regular-sale-box-tittle-right{
   text-align: right;
+}
+.regular-sale-box .regular-sale-box-sale{
+  padding: 0.3rem;
+  margin:28px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 90%;
+  text-align: center;
+  transition: transform 1s, filter 1s ease-in-out;
+}
+.regular-sale-box .regular-sale-box-sale:hover{
+  transform: scale(1.09);
+}
+.regular-sale-box .regular-sale-box-sale .sale-text{
+  overflow:hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp: 3;
+  font-size:13px;
+  max-height:3.5rem;
+  min-height:3.5rem;
+  margin-top: 0.5rem;
+}
+.regular-sale-box-sale .sale-price{
+  color:blue;
+  font-weight: bolder;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  text-align: center;
+  overflow: hidden;
+  max-height: 4.5rem;
+    min-height: 4.5rem;
+    margin-top: 0.5rem;
+}
+.regular-sale-box-sale .sale-price i{
+  color:green;
+}
+.regular-sale-box .regular-sale-box-sale img{
+  width: 60%;
 }
 /*Carousel*/
 .carousel .carousel-item img{
