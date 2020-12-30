@@ -51,6 +51,10 @@ nav a{
 nav .nav-item{
     color:white;
 }
+nav .nav-item .btn{
+  background-color:#27c2f0;
+  border: hidden !important;
+}
 nav .nav-item .btn:hover{
     color:gray;
 }
@@ -224,6 +228,19 @@ nav .nav-item .btn:hover{
 }
 .regular-sale-box .regular-sale-box-sale img{
   width: 60%;
+}
+/*Drodown*/
+.dropdown-menu{
+  text-align:center;
+}
+.dropdown-menu img{
+  width:100%;
+  height: 50%;
+}
+.dropdown-menu span{
+  font-weight: bolder;
+  font-size:15px;
+  color: gray;
 }
 /*Carousel*/
 .carousel .carousel-item img{

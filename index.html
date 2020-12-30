@@ -21,12 +21,17 @@
                     <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
                     <button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
                 </form>
-                <div class="nav-item col-md-5 col-sm-5">
-                    <a class="btn btn-link btn-md" type="button"><i class="fas fa-shopping-cart"></i><span> Giỏ hàng</span></a>
+                <div class="nav-item col-md-5 col-sm-5 dropdown">
+                    <a class="btn btn-link btn-md dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i><span> Giỏ hàng</span></a>
                     <a class="btn btn-link btn-md" type="button"><i class="fas fa-ad"></i><span> Khuyến mãi</span></a>
                     <a class="btn btn-link btn-md" type="button" data-toggle="modal" data-target="#login"> <i class="fa fa-user-circle"></i> Đăng Nhập</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <img src="img/GioHang.png">
+                    <span>Bạn chưa có món nào trong giỏ hàng</span>
+                    </div>
                 </div>
                 </div>
+                
             </nav>
         </header>
         <main>
@@ -296,8 +301,8 @@
             </button>
             </div>
             <div class="modal-body">                
-                <button type="button" class="btn btn-primary fb-button"><i class="fab fa-facebook-f"></i>Facebook</button>
-                <button type="button" class="btn btn-danger gg-button"><i class="fab fa-google-plus-g"></i>Google +</button>
+                 <a href="https://www.facebook.com/" target="_blank"><button type="button" class="btn btn-primary fb-button"><i class="fab fa-facebook-f"></i>Facebook</button></a>
+                <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"><button type="button" class="btn btn-danger gg-button"><i class="fab fa-google-plus-g"></i>Google +</button></a>
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
