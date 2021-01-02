@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Chủ</title>
+    <title>Màn Hình Dell Ultrasharp 24" U2419H (1920x1080/IPS/60Hz/8ms)</title>
     <link rel="stylesheet" href="vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/fontawesome-free-5.9.0-web/css/all.css">
     <link rel="stylesheet" href="css/web-trangchu.css">
@@ -16,7 +16,7 @@
         <!--Navbar-->
             <nav class="navbar" id="navbar">
                 <div class="container-fluid row">
-                    <a class="col-md-2 col-sm-2 logo" href="#">
+                    <a class="col-md-2 col-sm-2 logo" href="index.html">
                         <img src="img/Logo-Doremon.png">
                     </a>
                 <form class="d-flex col-md-5 col-sm-4">
@@ -25,53 +25,321 @@
                 </form>
                 <div class="nav-item col-md-5 col-sm-5 dropdown">
                     <a class="btn btn-link btn-md dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i><span> Giỏ hàng</span></a>
-                    <a class="btn btn-link btn-md" type="button"><i class="fas fa-ad"></i><span> Khuyến mãi</span></a>
+                    <a href="404.html" class="btn btn-link btn-md" type="button"><i class="fas fa-tags"></i><span> Khuyến mãi</span></a>
                     <a class="btn btn-link btn-md" type="button" data-toggle="modal" data-target="#login"> <i class="fa fa-user-circle"></i> Đăng Nhập</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <img src="img/GioHang.png">
                     <span>Bạn chưa có món nào trong giỏ hàng</span>
                     </div>
                 </div>
-                </div>
-                
+                </div>                
             </nav>
         </header>
         <main>
-            <!--Carousel-->
-            <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/slide1.jpg" alt="First slide">
+            <div class="infor">
+                <div class="infor-item ">
+                    <a href="index.html"><i class="fas fa-home"></i></a>             
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/slide2.jpg" alt="Second slide">
+                <span class="infor-next">></span>                                
+                <div class="infor-item ">
+                    <a href="index.html">Màn Hình Dell Ultrasharp 24" U2419H (1920x1080/IPS/60Hz/8ms)</a>
+                </div>              
+            </div>
+            <div class="container-fluid">
+                <div class="detail row">
+                    <div class="detail-left col-md-6">
+                        <div class="container">
+                            <img id="expandedImg" src="img/detail-1.jpg" style="width:100%" >
+                          </div>
+                        <div class="row">
+                            <div class="column">
+                              <img id="expandedImg2" src="img/detail-1.jpg" style="width:100%;" onclick="myFunction(this);ZoomFunction(this);">
+                            </div>
+                            <div class="column">
+                              <img id="expandedImg3" src="img/detail-2.jpg"  style="width:100%" onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                              <img id="expandedImg4" src="img/detail-3.jpg" style="width:100%" onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                              <img id="expandedImg5" src="img/detail-4.jpg"  style="width:100%" onclick="myFunction(this);">
+                            </div>
+                          </div>
+                        <div class="quick-infor">
+                            <dl>
+                                <dd>- Kích thước: 24"</dd>                                    
+                                <dd>- Công nghệ tấm nền: IPS</dd>
+                                <dd>- Góc nhìn: 178 (H) / 178 (V)</dd>
+                                <dd>- Tần số quét: 60Hz</dd>
+                                <dd>- Thời gian phản hồi: 8 ms</dd>
+                                - Độ phân giải: 1920 x 1080 ( 16:9 )</dd>
+                              </dl>
+                        </div>
+                    </div>
+                    <div id="myresult" class="img-zoom-result"></div>
+                    <div class="detail-right col-md-6">
+                        <div class="detail">
+                            <div class="title">Màn Hình Dell Ultrasharp 24" U2419H (1920x1080/IPS/60Hz/8ms)</div>
+                            <div class="brand-code">
+                                <div class="note">Thương hiệu <a href="#" class="brand">Dell</a></div>
+                                <div claas="code-titlte">TLR: <a href="#" class="code-brand">188042452</a></div>
+                            </div>
+                            <div class="price">5.200.000đ <i class="fas fa-shipping-fast shipping"></i></div>
+                            <div class="btn-group">
+                                <a href="#"><button type="button" class="btn btn-primary">Mua Ngay</button></a>
+                                <a href="#"><button type="button" class="btn btn-success">Thêm Vào Giỏ Hàng</button></a>
+                            </div> 
+                            <div class="line"></div>
+                            <div class="coupon">
+                                <div class="coupon title-small">
+                                    Khuyến mãi liên quan
+                                </div>
+                                <ul>
+                                    <li>[YEAR END PARTY] Giảm 10% tất cả sản phẩm đến 2 triệu* (ngoại trừ CPU, thẻ nạp điện thoại, iPhone 12 series, VGA 1660 Super và VGA 3060TI) cho khách hàng đăng kí NHẬN MÃ vào 30/12 - 31/12. Số lượng giới hạn!</li>
+                                    <li>[YEAR END PARTY] Giảm 10% tất cả sản phẩm đến 2 triệu* (ngoại trừ CPU, thẻ nạp điện thoại, iPhone 12 series, VGA 1660 Super và VGA 3060TI) cho khách hàng đăng kí NHẬN MÃ vào 30/12 - 31/12. Số lượng giới hạn!</li>
+                                </ul>
+                            </div>
+                            <div class="line"></div>
+                            <div class="commit">
+                                <div class="commit title-small">
+                                    Cam kết bán hàng
+                                </div>
+                                <div class="commit-item"><i class="far fa-check-circle"></i> Cam kết bán hàng chính hãng</div>
+                                <div class="commit-item"><i class="fas fa-truck"></i> Miễn phí giao hàng cho đơn trên 500k</div>
+                                <div class="commit-item"><i class="fas fa-sync-alt"></i> Miễn phí đổi trả trong 7 ngày</div>
+                            </div>                                              
+                        </div>             
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/slide4.jpg" alt="Four slide">
+                <div class="more-detail row">
+                    <div class="more-detail-left col-md-7">
+                        <div class="more-detail-title">
+                            Mô tả sản phẩm
+                        </div>
+                        <div id="moreInfor" class="more-detail-form" style="height: 100vh;">
+                            <div class="more-detail-text">
+                                <h2 style="text-align: justify;">
+                                    <strong>Giới thiệu / đánh giá Màn hình Dell Ultrasharp 24” U2419H (FHD/IPS)</strong></h2>
+                                        <p style="text-align: justify;">&nbsp;</p>
+                                        
+                                        <p style="text-align: justify;">
+                                            <span style="color:#000000;">Màn hình&nbsp;</span>Dell Ultrasharp 24″ U2419H</span>
+                                            (FHD/IPS) cho hiệu suất màn hình ấn tượng: Trải nghiệm độ rõ nét vượt trội trên màn hình tuyệt vời với độ phân giải Full HD (1920×1080), kích thước hiển thị của tấm nền lên tới 23.8″ trên tổng kích thước màn hình 24″.</p>
+                                        
+                                        <p style="text-align: justify;">
+                                            Tính nhất quán màu đạt tiêu chuẩn: Màn hình Màn hình
+                                            Dell Ultrasharp 24″ 
+                                            U2419H được hiệu chỉnh tại nhà máy với độ bao phủ 99% sRGB, thông số Delta-E &lt; 2 cho tái tạo màu sắc chính xác. Ngoài ra, với độ bao phủ 99% Rec709 và 85% DCI-P3, bạn sẽ thấy màu sắc chân thực ở mọi định dạng video.</p>
+                                        
+                                        <p style="text-align: justify;">Luôn là chế độ xem tốt nhất: Trải nghiệm hình ảnh ở màu sắc nhất quán, rực rỡ trên một góc nhìn rộng được kích hoạt bằng công nghệ In-Plane Switching (IPS).</p>
+                                        
+                                        <p style="text-align: justify;"><img alt="Màn hình Dell Ultrasharp 24'' U2419H (FHD IPS)" height="580" sizes="(max-width: 965px) 100vw, 965px" src="img/Dell-Ultrasharp-24-U2419H-FHD-IPS-1.jpg" width="965"></p>
+                                        
+                                        <h3 style="text-align: justify;">Thiết kế sáng tạo</h3>
+                                        
+                                        <p style="text-align: justify;">Với thiết kế màn hình thời trang (chỉ mỏng nhất 6,5mm) và chân đế nhỏ gọn nhỏ hơn khoảng 30% so với phiên bản tiền nhiệm, bạn có thể tiết kiệm không gian bàn làm việc một cách thiết thực nhất.</p>
+                                        
+                                        <p style="text-align: justify;">Điều chỉnh để phù hợp: Thiết kế mã màn hình dell U2419H chỉ thay đổi tại trục quay. Ngoài ra màn hình DELL U2419H cũng được thiết kế mỏng hơn so với P2719H. Chính vì thế màn hình dell UltraSharp U2419H thoạt nhìn sang trọng và thanh mảnh hơn chiếc P2719H rất nhiều. Xoay, nghiêng, và điều chỉnh chiều cao của màn hình để có một thiết lập thoải mái cho bạn suốt cả ngày. Thiết kế cải tiến với bản lề trên riser, giúp điều chỉnh dễ dàng hơn trong khi vẫn giữ riser ở cùng một vị trí.</p>
+                                        
+                                        <p style="text-align: justify;">Gọn gàng: Tập trung vào công việc của bạn trong khi che giấu sự lộn xộn của các loại dây cáp với thiết kế quản lý cáp được cải tiến.</p>
+                                        
+                                        <p style="text-align: justify;">Dễ nhìn: Màn hình được chứng nhận TUV2, công nghệ Flicker-Free chống nháy hình với ComfortView, một tính năng giúp giảm phát xạ ánh sáng xanh có hại. Nó được thiết kế để tối ưu hóa sự thoải mái cho mắt ngay cả trong một khoảng thời gian dài.</p>
+                                        
+                                        <p style="text-align: justify;"><img alt="Màn hình Dell Ultrasharp 24'' U2419H (FHD IPS)" height="329" sizes="(max-width: 675px) 100vw, 675px" src="img/Dell-Ultrasharp-24-U2419H-FHD-IPS-2.jpg" width="675"></p>
+                                        
+                                        <h3 style="text-align: justify;">Tối đa hóa năng suất của bạn</h3>
+                                        
+                                        <p style="text-align: justify;">Mở rộng hiệu quả của bạn: Thiết kế InfinityEdge gần như không viền cho phép bạn tận hưởng chế độ xem gần như liền mạch nội dung của mình trên nhiều màn hình ghép vào. Và với màn hình kép, bạn có thể tăng năng suất lên tới 18%.</p>
+                                        
+                                        <p style="text-align: justify;">Công nghệ hỗ trợ màu : Về công nghệ nếu Dell UltraSharp P2719H chỉ hỗ trợ 16.7 triệu màu và Color Gamut (typical) chỉ đạt 72% (CIE1931) . Thì tại màn hình Dell UltraSharp U2419H được nâng cấp khá đáng kể. Trên màn hình Dell UltraSharp U2419H ngoài hỗ trợ lên đến 16.7 triệu màu thì U2419H hỗ trợ các mã màu như 99% sRGB, 99% REC709, 85% DCI-P3. Nhờ vậy các hình ảnh, video được hiển thị trên Dell UltraSharp U2419H chắc chắn sẽ trung thực và sống động hơn rất nhiều.</p>
+                                        
+                                        <p style="text-align: justify;">Nhiều cách để đa nhiệm: Dễ dàng tổ chức nhiều ứng dụng bằng các mẫu được xác định trước hoặc một mẫu tùy chỉnh với tính năng sắp xếp dễ dàng (Easy Arrange) trên phần mềm Dell Display Manager. Ngoài ra, bạn có thể thuận tiện xếp các ứng dụng của mình qua thiết lập nhiều màn hình.</p>
+                                        
+                                        <p style="text-align: justify;">Quyền hoạt động: Với tự động khôi phục trên Dell Display Manager, bạn có thể ngắt kết nối, kết nối lại và tất cả các ứng dụng của bạn sẽ vẫn ở chỗ cũ.</p>
+                                        
+                                        <p style="text-align: justify;"><img alt="Màn hình Dell Ultrasharp 24'' U2419H (FHD IPS)" height="411" sizes="(max-width: 740px) 100vw, 740px" src="img/Dell-Ultrasharp-24-U2419H-FHD-IPS-3-300x167.jpg"></p>
+                                           
+                            </div>
+                        </div>
+                        <button class="btn btn-link moreInfor-button" onclick="moreText()">Xem/Thu gọn nội dung</button>
+                    </div>
+                    <div class="more-detail-right col-md-4">
+                        <div class="specifications">
+                            <div class="spec-title">Thông số kỹ thuật</div>
+                        </div>
+                        <div class="spec-table">
+                            <div class="spec-infor">Thông tin chung</div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Thương hiệu</span>
+                                <span class="spec-textInfor">
+                                    <div class="spec-textInfor-More">Dell</div>
+                                </span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Bảo hành</span>
+                                <span class="spec-textInfor">
+                                    <div class="spec-textInfor-More">36</div>
+                            </span>
+                            </div>                            
+                            <div class="spec-infor">Cấu hình chi tiết</div>
+                            <div class="spec-zone"><span class="spec-text">Kích thước</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 24" </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Độ phân giải</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 1920 x 1080 ( 16:9 )</div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Tấm nền</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> IPS  LED </div></span></div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Tần số quét</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 60Hz </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Thời gian phản hồi</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 8 ms </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Kiểu màn hình</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> Màn hình phẳng </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Độ sáng</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 250 cd/m2 </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Góc nhìn</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 178 (H) / 178 (V) </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Khả năng hiển thị màu sắc</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 16.7 triệu màu </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Độ tương phản tĩnh</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 1,000:1 </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Bề mặt</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> Màn hình chống lóa </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">HDR</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> không hỗ trợ </div></span>
+                            </div>
+                            <div class="spec-zone"><span class="spec-text">Cổng mở rộng</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 4 x USB 3.0 </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Cổng xuất hình</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> 1 x HDMI 1.4 , 2 x DisplayPort 1.4 </div></span>
+                            </div>
+                            <div class="spec-zone">
+                                <span class="spec-text">Phụ kiện đi kèm</span>
+                                <span class="spec-textInfor"><div class="spec-textInfor-More"> Cáp Displayport, Cáp USB </div></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/slide5.jpg" alt="Five slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100 " src="img/slide6.jpg" alt="Six slide">
-                </div>
-                </div>
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-                </a>
-            </div>           
+                    <div class="sale-box"  data-aos="fade-up-left" data-aos-duration="700" data-aos-easing="linear">
+                        <div class="same-sale row">
+                            <div class="col-md-6 same-sale-left">
+                                <a href="404.html"><i class="fas fa-laptop"></i><span>Sản phẩm tương tự</span></a>
+                            </div>
+                            <div class="col-md-6 same-sale-right">
+                                <a href="404.html"><span>Xem thêm<i class="fas fa-caret-right"></i> </span></a>
+                            </div>
+                            <br>
+                            <div id="carouselSameSale" class="carousel slide carousel-fade" data-ride="carousel">
+                                <div class="containercarousel-inner">
+                                    <div class="carousel-item active carousel-item-flex mg-10 justify-content-center">
+                                            <div class="sale p-5 col-xs-3 col-sm-3 col-md-3 ">
+                                                <a href="detail.html">
+                                                    <img src="img/Same-Sale1.jpg">
+                                                    <div class="sale-text">Bàn phím Dell KB216 USB</div>
+                                                    <div class="sale-price">169.000đ </div>
+                                                </a>                                                
+                                            </div>
+                                            <div class="sale p-5 col-xs-3 col-sm-3 col-md-3 ">
+                                                <a href="detail.html">
+                                                    <img src="img/Same-Sale2.jpg">
+                                                    <div class="sale-text">Chuột máy tính Dell MS 116 (Đen)</div>
+                                                    <div class="sale-price">105.000đ </div>
+                                                </a>
+                                            </div>
+                                            <div class="sale p-5 col-xs-3 col-sm-3 col-md-3 ">
+                                                <a href="detail.html">
+
+                                                    <img src="img/Same-Sale3.jpg">
+                                                    <div class="sale-text">Laptop Dell Vostro 15 3591 GTNHJ1 ( 15.6" Full HD/Intel Core i5-1035G1/8GB/256GB SSD/Windows 10 Home SL 64-bit/2.1kg)</div>
+                                                    <div class="sale-price">15.090.000đ <i class="fas fa-shipping-fast"></i>
+                                                        <div class="sale-discount">
+                                                            <div class="discount-price">15.590.000đ</div>
+                                                             <div class="discount-percent">3%</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                    </div>
+                                    <div class="carousel-item carousel-item-flex mg-10 justify-content-center ">
+                                        <div class="sale p-5 col-xs-3 col-sm-3 col-md-3 ">
+                                            <a href="detail.html">
+                                                <img src="img/Same-Sale4.jpg">
+                                                <div class="sale-text">Màn Hình Dell 21.5" E2219HN (1920x1080/IPS/60Hz/14ms)</div>
+                                                <div class="sale-price">2.490.000đ <i class="fas fa-shipping-fast"></i> </div>
+                                            </a>
+                                        </div>
+                                        <div class="sale p-5 col-xs-3 col-sm-3 col-md-3 ">
+                                            <a href="detail.html">
+                                                <img src="img/Same-Sale5.jpg">
+                                                <div class="sale-text">Laptop Dell Vostro 14 3405 V4R53500U001W ( 14" Full HD/AMD Ryzen 5 3500U/4GB/256GB SSD/Windows 10 Home SL 64-bit/1.7kg)</div>
+                                                <div class="sale-price">11.990.000đ <i class="fas fa-shipping-fast"></i><div class="sale-discount"><div class="discount-price">12.490.000đ</div> <div class="discount-percent">4%</div></div></div>
+                                            </a>
+                                        </div>
+                                        <div class="sale p-5 col-xs-3 col-sm-3 col-md-3">
+                                            <a href="detail.html">
+                                                <img src="img/Same-Sale6.jpg">
+                                                <div class="sale-text">Laptop Dell G3 15 3500 70223130 ( 15.6" Full HD/Intel Core i5-10300H/8GB/256GB SSD/1TB HDD/NVIDIA GeForce GTX 1650/Windows 10 Home 64-bit/2.3kg)</div>
+                                                <div class="sale-price">21.490.000đ<i class="fas fa-shipping-fast"></i><div class="sale-discount"><div class="discount-price">22.490.000đ</div> <div class="discount-percent">4%</div></div> </div>
+                                            </a>
+                                        </div>
+                                    </div>   
+                                    <div class="carousel-item carousel-item-flex mg-10 justify-content-center ">
+                                        <div class="sale p-5 col-xs-3 col-sm-3 col-md-3">
+                                            <a href="detail.html">
+                                                <img src="img/Same-Sale7.jpg">
+                                                <div class="sale-text">Màn hình LCD Dell SE2219HX (1920 x 1080/IPS/60Hz/8 ms)</div>
+                                                <div class="sale-price">2.820.000đ<i class="fas fa-shipping-fast"></i> </div>
+                                            </a>
+                                        </div>
+                                        <div class="sale p-5 col-xs-3 col-sm-3 col-md-3">
+                                            <a href="detail.html">
+                                                <img src="img/Same-Sale8.jpg">
+                                                <div class="sale-text">Màn Hình Dell 23" S2319H (1920x1080/IPS/60Hz/5ms)</div>
+                                                <div class="sale-price">3.790.000đ<i class="fas fa-shipping-fast"></i> </div>
+                                            </a>
+                                        </div>
+                                        <div class="sale p-5 col-xs-3 col-sm-3 col-md-3">
+                                            <a href="detail.html">
+                                                <img src="img/Same-Sale9.jpg">
+                                                <div class="sale-text">Màn Hình Dell 27" P2719H (1920x1080/IPS/60Hz/5ms)</div>
+                                                <div class="sale-price">5.750.000đ <i class="fas fa-shipping-fast"></i> </div>
+                                            </a>
+                                        </div>
+                                    </div>                                   
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselSameSale" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#carouselSameSale" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                            </div>
+                        </div>
+                    </div>
         </main>
         <footer>
         
@@ -94,17 +362,19 @@
                                 <div class="card-title">Liên hệ thêm
                                 </div>
                                 <div class="card-text">
-                                    <a href="#" class="icon-transform"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" class="icon-transform"><i class="fab fa-instagram"></i></a>
-                                    <a href="#" class="icon-transform"><i class="fab fa-telegram-plane"></i></a>
-                                    <a href="#" class="icon-transform"><i class="fab fa-google-plus-g"></i></a>                              
+                                    <a href="404.html" class="icon-transform"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="404.html" class="icon-transform"><i class="fab fa-instagram"></i></a>
+                                    <a href="404.html" class="icon-transform"><i class="fab fa-telegram-plane"></i></a>
+                                    <a href="404.html" class="icon-transform"><i class="fab fa-google-plus-g"></i></a>                              
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col text-center">
-                        <img src="img/Logo-Doremon.png">
-                        <br class="clearfix"></br>
+                        <a href="404.html">
+                            <img src="img/Logo-Doremon.png">
+                            <br class="clearfix"></br>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -147,18 +417,11 @@
         </div>
         </div>
     </div>
-    <!--Auto Popup-->
-    <div class="bts-popup" role="alert">
-        <div class="bts-popup-container">
-          <img src="img/popup-auto.jpg" alt="" width="100%" />
-          <a href="index.html" class="bts-popup-close img-replace"></a>
-        </div>
-    </div>
-
     <script src="vendor/jquery-3.4.1.min.js"></script>
     <script src="vendor/popper.min.js"></script>
     <script src="vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
     <script src="js/web-trangchu.js"></script>
+    <script src="js/web-detail.js"></script>
     <script src="vendor/aos.js"></script>
     <script>
         AOS.init();

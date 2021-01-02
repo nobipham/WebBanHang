@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Lỗi</title>
+        <!-- Bootstrap CSS -->
+        <link href="vendor/bootstrap-theme.css" rel="stylesheet">
+        <!-- bootstrap theme -->
+        <link href="vendor/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-free-5.9.0-web/css/all.css">
+    <link rel="stylesheet" href="css/web-trangchu.css">
+    <link rel="stylesheet" href="vendor/aos.css">
+    <link rel="stylesheet" href="css/404.css">
+</head>
+<body>
+    <div class="home-page">
+        <header>
+        <!--Navbar-->
+            <nav class="navbar" id="navbar">
+                <div class="container-fluid row">
+                    <a class="col-md-2 col-sm-2 logo" href="index.html">
+                        <img src="img/Logo-Doremon.png">
+                    </a>
+                <form class="d-flex col-md-5 col-sm-4">
+                    <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                    <button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="nav-item col-md-5 col-sm-5 dropdown">
+                    <a class="btn btn-link btn-md dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i><span> Giỏ hàng</span></a>
+                    <a class="btn btn-link btn-md" type="button"><i class="fas fa-tags"></i><span> Khuyến mãi</span></a>
+                    <a class="btn btn-link btn-md" type="button" data-toggle="modal" data-target="#login"> <i class="fa fa-user-circle"></i> Đăng Nhập</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <img src="img/GioHang.png">
+                    <span>Bạn chưa có món nào trong giỏ hàng</span>
+                    </div>
+                </div>
+                </div>
+                
+            </nav>
+        </header>
+        <main>
+            <div class="page-404">
+                <p class="text-404">404</p>        
+                <h2>Lỗi rồi!!!!</h2>
+                <p>Có vài điều gì đó đã xảy ra hãy quay lại sau. <br><a href="index.html">Trở về trang chủ</a></p>
+            </div>
+        </main>
+        <footer>
+        
+            <div class="container-fluid footer">
+                <div class="row">
+                    <div class="col">
+                        <div class="card footer-box text-center">
+                            <div class="card-body">
+                                <div class="card-title">Công ty - Doraemon
+                                </div>
+                                <div class="card-text">
+                                    © Copyright - 2020                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card footer-box text-center">
+                            <div class="card-body">
+                                <div class="card-title">Liên hệ thêm
+                                </div>
+                                <div class="card-text">
+                                    <a href="404.html" class="icon-transform"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="404.html" class="icon-transform"><i class="fab fa-instagram"></i></a>
+                                    <a href="404.html" class="icon-transform"><i class="fab fa-telegram-plane"></i></a>
+                                    <a href="404.html" class="icon-transform"><i class="fab fa-google-plus-g"></i></a>                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <a href="404.html">
+                            <img src="img/Logo-Doremon.png">
+                        </a>
+                        <br class="clearfix"></br>
+                    </div>
+                </div>
+            </div>
+            <div class="hotline-phone-ring-wrap">
+                <div class="hotline-phone-ring">
+                <div class="hotline-phone-ring-circle"></div>
+                <div class="hotline-phone-ring-circle-fill"></div>
+                <div class="hotline-phone-ring-img-circle">
+                <a href="tel:0123456789" class="pps-btn-img">
+                <img src="img/Call-Phone-Icon.png" alt="Gọi điện thoại" width="50">
+                </a>
+                </div>
+                </div>
+                <div class="hotline-bar">
+                <a href="tel:0123456789">
+                <span class="text-hotline">0123.456.789</span>
+                </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Đăng Nhập</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="fa fa-times-circle"></i>
+            </button>
+            </div>
+            <div class="modal-body">                
+                 <a href="https://www.facebook.com/" target="_blank"><button type="button" class="btn btn-primary fb-button"><i class="fab fa-facebook-f"></i>Facebook</button></a>
+                <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"><button type="button" class="btn btn-danger gg-button"><i class="fab fa-google-plus-g"></i>Google +</button></a>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="vendor/jquery-3.4.1.min.js"></script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/web-trangchu.js"></script>
+    <script src="js/web-detail.js"></script>
+    <script src="vendor/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>

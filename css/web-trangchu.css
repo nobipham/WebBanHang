@@ -116,9 +116,13 @@ nav .nav-item .btn:hover{
 .sale-group .carousel{
   width: 100%;
 }
-.sale-group a{
+.sale-group-title{
   color:white;
   font-weight: bolder;
+}
+.sale-group .carousel a{
+  color: rgb(155,155,155);
+}
 }
 .sale-group .sale{
   transition: transform 1s, filter 1s ease-in-out;
@@ -175,6 +179,10 @@ nav .nav-item .btn:hover{
   color:black;
   font-weight: bolder;
 }
+.regular-sale-box-sale a{
+  color:rgb(155,155,155);
+  font-weight: normal;
+}
 .regular-sale-box i{
   margin: 10px;
 }
@@ -186,7 +194,7 @@ nav .nav-item .btn:hover{
 }
 .regular-sale-box .regular-sale-box-sale{
   padding: 0.3rem;
-  margin:28px;
+  margin:19px;
   background: rgb(255, 255, 255);
   cursor: pointer;
   display: inline-block;
@@ -208,8 +216,8 @@ nav .nav-item .btn:hover{
   -webkit-box-orient:vertical;
   -webkit-line-clamp: 3;
   font-size:13px;
-  max-height:3.5rem;
-  min-height:3.5rem;
+  max-height:5rem;
+  min-height:5rem;
   margin-top: 0.5rem;
 }
 .regular-sale-box-sale .sale-price{
@@ -219,8 +227,8 @@ nav .nav-item .btn:hover{
   text-overflow: ellipsis;
   text-align: center;
   overflow: hidden;
-  max-height: 4.5rem;
-    min-height: 4.5rem;
+  max-height: 5rem;
+    min-height: 5rem;
     margin-top: 0.5rem;
   width: 80%;
 }
